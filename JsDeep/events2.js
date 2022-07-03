@@ -27,3 +27,4 @@ window.addEventListener("copy", coppier)
 // title.onclick("click",handleTitleClick);
 
 //  Search the elements by dir() ,this function will show up what kind of properties are inside.
+//  line 14 I can use both of way to express the eventsListener but if you use the addEventsListener then you can use the RemoceEventListener.
