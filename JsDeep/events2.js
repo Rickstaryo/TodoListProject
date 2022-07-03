@@ -9,8 +9,21 @@ title.innerText = " mouse is here"
 function handleMouseleave(){
 title.innerText = "Mouse leave"
 }
+function handleWindowResize(){
+    document.body.style.backgroundColor = "tomato";
+    //only work for Document of body, head, title can use 
+    // like div cannot be used .
+}
+function coppier(){
+ alert("copier");
+}
 
 title.addEventListener("mouseenter", handleMouseEnter);
 title.addEventListener("mouseleave", handleMouseleave);
+window.addEventListener("resize", handleWindowResize);
+window.addEventListener("copy", coppier)
 
-//  Search the elements by dir() this function will show up what kind of properties are inside.
+// another way to show up 
+// title.onclick("click",handleTitleClick);
+
+//  Search the elements by dir() ,this function will show up what kind of properties are inside.
